@@ -11,7 +11,7 @@ public class ArrayUtils {
 
         int[] array = new int[size];
 
-        System.out.println("Podaj 5 liczb");
+        System.out.println("Podaj " + size + " liczb");
         for (int i = 0; i < array.length; i++) {
             array[i] = scanner.nextInt();
         }
