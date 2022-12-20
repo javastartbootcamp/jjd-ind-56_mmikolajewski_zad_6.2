@@ -18,9 +18,8 @@ public class ArrayUtils {
         return array;
     }
 
-    private int sum = 0;
-
     public int sumPow(int[] array) {
+        int sum = 0;
         for (int row : array) {
             sum += (int) Math.pow(row, 2);
         }
